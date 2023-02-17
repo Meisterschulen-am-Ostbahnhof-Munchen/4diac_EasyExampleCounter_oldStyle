@@ -11,25 +11,43 @@
 		</SubAppEventInputs>
 	</SubAppInterfaceList>
 	<SubAppNetwork>
-		<SubApp Name="mapping_Buttons" Type="mapping_Buttons" Comment="" x="200.0" y="-826.6666666666667">
+		<SubApp Name="mapping_Buttons" Type="mapping_Buttons" Comment="" x="133.33333333333334" y="-833.3333333333334">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
-		<SubApp Name="mapping_Softkeys" Type="mapping_Softkeys" Comment="" x="200.0" y="-400.0">
+		<SubApp Name="mapping_Softkeys" Type="mapping_Softkeys" Comment="" x="133.33333333333334" y="-406.6666666666667">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
-		<SubApp Name="mapping_aux" Type="mapping_aux" Comment="" x="200.0" y="0.0">
+		<SubApp Name="mapping_aux" Type="mapping_aux" Comment="" x="133.33333333333334" y="-6.666666666666667">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
-		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="200.0" y="400.0">
+		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="2400.0" y="933.3333333333334">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2266.666666666667" y="2000.0">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="MinusMinus" Type="MinusMinus" Comment="" x="0.0" y="1600.0">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="PlusPlus" Type="PlusPlus" Comment="" x="0.0" y="1200.0">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
@@ -40,6 +58,13 @@
 			<Connection Source="INIT" Destination="mapping_Buttons.INIT" Comment="" dx1="80.0"/>
 			<Connection Source="INIT" Destination="mapping_aux.INIT" Comment="" dx1="80.0"/>
 			<Connection Source="INIT" Destination="Gesamtzaehler.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="Tageszaehler.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="PlusPlus.IND" Destination="Gesamtzaehler.CU" Comment="" dx1="873.3333333333334"/>
+			<Connection Source="PlusPlus.IND" Destination="Tageszaehler.CU" Comment="" dx1="866.6666666666667"/>
+			<Connection Source="MinusMinus.IND" Destination="Gesamtzaehler.CD" Comment="" dx1="1173.3333333333335"/>
+			<Connection Source="MinusMinus.IND" Destination="Tageszaehler.CD" Comment="" dx1="1180.0"/>
+			<Connection Source="INIT" Destination="PlusPlus.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="MinusMinus.INIT" Comment="" dx1="80.0"/>
 		</EventConnections>
 	</SubAppNetwork>
 </SubAppType>
