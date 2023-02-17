@@ -36,20 +36,20 @@ const unsigned long ISO_OP_MEMORY_CLASS isoOP_DefaultPool_Offset[] = {
 	   789,  // LinearBargraph_Gesamtzaehler_Offset
 	   813,  // LinearBargraph_Tageszaehler_Offset
 	   837,  // Icon_Button_MinusMinus_Offset
-	  1076,  // Icon_Button_PlusPlus_Offset
-	  1425,  // Icon_SoftKey_MinusMinus_Offset
-	  1664,  // IconSoftKey_PlusPlus_Offset
-	  2013,  // NumberVariable_Tageszaehler_Offset
-	  2020,  // NumberVariable_Gesamtzaehler_Offset
-	  2027,  // NumberVariable_Gesamtziel_Offset
-	  2034,  // NumberVariable_Tagesziel_Offset
-	  2041,  // FontAttributes_Default_Offset
-	  2049,  // FontAttributes_Button_Offset
-	  2057,  // LineAttributes_Border_Offset
-	  2065,  // FillAttributes_DarkerBG_Offset
-	  2073,  // ObjectPointer_Null2_Offset
-	  2078,  // ObjectPointer_Tagesziel_Offset
-	  2083,  // ObjectPointer_Gesamtziel_Offset
-	  2088,  // AuxFunction2_PlusPlus_Offset
-	  2100,  // AuxFunction2_MinusMinus_Offset
+	  1502,  // Icon_Button_PlusPlus_Offset
+	  2167,  // Icon_SoftKey_MinusMinus_Offset
+	  2832,  // IconSoftKey_PlusPlus_Offset
+	  3497,  // NumberVariable_Tageszaehler_Offset
+	  3504,  // NumberVariable_Gesamtzaehler_Offset
+	  3511,  // NumberVariable_Gesamtziel_Offset
+	  3518,  // NumberVariable_Tagesziel_Offset
+	  3525,  // FontAttributes_Default_Offset
+	  3533,  // FontAttributes_Button_Offset
+	  3541,  // LineAttributes_Border_Offset
+	  3549,  // FillAttributes_DarkerBG_Offset
+	  3557,  // ObjectPointer_Null2_Offset
+	  3562,  // ObjectPointer_Tagesziel_Offset
+	  3567,  // ObjectPointer_Gesamtziel_Offset
+	  3572,  // AuxFunction2_PlusPlus_Offset
+	  3584,  // AuxFunction2_MinusMinus_Offset
 };  // isoOP_DefaultPool_Offset

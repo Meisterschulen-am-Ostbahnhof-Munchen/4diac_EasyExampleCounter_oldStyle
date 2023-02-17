@@ -2697,7 +2697,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Encoding">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="Extended">
 					<Value>0</Value>
@@ -2765,7 +2765,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Encoding">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="Extended">
 					<Value>0</Value>
@@ -2833,7 +2833,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Encoding">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="Extended">
 					<Value>0</Value>
@@ -2901,7 +2901,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Encoding">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="Extended">
 					<Value>0</Value>
