@@ -52,5 +52,5 @@
 #define ObjectPointer_Null2               27000
 #define ObjectPointer_Tagesziel           27001
 #define ObjectPointer_Gesamtziel          27003
-#define AuxFunction2_PlusPlus             29000
-#define AuxFunction2_MinusMinus           29001
+#define AuxFunction2_PlusPlus             31000
+#define AuxFunction2_MinusMinus           31001

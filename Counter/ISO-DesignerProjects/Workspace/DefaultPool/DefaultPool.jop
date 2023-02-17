@@ -3003,7 +3003,7 @@
 				</Property>
 			</PropertySheet>
 		</Object>
-		<Object Class="CAuxFunction" Name="AuxFunction" ObjectName="AuxFunction2_PlusPlus" Pinned="TRUE" JVS-ID="29000">
+		<Object Class="CAuxFunction" Name="AuxFunction" ObjectName="AuxFunction2_PlusPlus" Pinned="TRUE" JVS-ID="31000">
 			<PropertySheet Name="AuxFunction">
 				<Property Name="BackColor">
 					<Value>10079436</Value>
@@ -3060,7 +3060,7 @@
 				<Object JVS-ID="4194341"/>
 			</Objects>
 		</Object>
-		<Object Class="CAuxFunction" Name="AuxFunction" ObjectName="AuxFunction2_MinusMinus" Pinned="TRUE" JVS-ID="29001">
+		<Object Class="CAuxFunction" Name="AuxFunction" ObjectName="AuxFunction2_MinusMinus" Pinned="TRUE" JVS-ID="31001">
 			<PropertySheet Name="AuxFunction">
 				<Property Name="BackColor">
 					<Value>10079436</Value>
