@@ -35,7 +35,7 @@
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
-		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2266.666666666667" y="2000.0">
+		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2400.0" y="2933.3333333333335">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
@@ -53,6 +53,14 @@
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
+		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="2000.0">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="3553.3333333333335">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
 		<EventConnections>
 			<Connection Source="INIT" Destination="mapping_Softkeys.INIT" Comment="" dx1="80.0"/>
 			<Connection Source="INIT" Destination="mapping_Buttons.INIT" Comment="" dx1="80.0"/>
@@ -65,6 +73,10 @@
 			<Connection Source="MinusMinus.IND" Destination="Tageszaehler.CD" Comment="" dx1="1180.0"/>
 			<Connection Source="INIT" Destination="PlusPlus.INIT" Comment="" dx1="80.0"/>
 			<Connection Source="INIT" Destination="MinusMinus.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="Reset_Gesamtzaehler.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="Reset_Tageszaehler.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="Reset_Gesamtzaehler.IND" Destination="Gesamtzaehler.R" Comment="" dx1="953.3333333333334"/>
+			<Connection Source="Reset_Tageszaehler.IND" Destination="Tageszaehler.R" Comment="" dx1="1000.0"/>
 		</EventConnections>
 	</SubAppNetwork>
 </SubAppType>
