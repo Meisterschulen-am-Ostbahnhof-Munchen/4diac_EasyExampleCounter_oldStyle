@@ -56,8 +56,16 @@
 		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="2000.0">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="3553.3333333333335">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="GesamtzaehlerVergleich" Type="GesamtzaehlerVergleich" Comment="" x="4266.666666666667" y="666.6666666666667">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
@@ -77,6 +85,11 @@
 			<Connection Source="INIT" Destination="Reset_Tageszaehler.INIT" Comment="" dx1="80.0"/>
 			<Connection Source="Reset_Gesamtzaehler.IND" Destination="Gesamtzaehler.R" Comment="" dx1="953.3333333333334"/>
 			<Connection Source="Reset_Tageszaehler.IND" Destination="Tageszaehler.R" Comment="" dx1="1000.0"/>
+			<Connection Source="INIT" Destination="GesamtzaehlerVergleich.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="Gesamtzaehler.CNF" Destination="GesamtzaehlerVergleich.REQ" Comment="" dx1="80.0"/>
 		</EventConnections>
+		<DataConnections>
+			<Connection Source="Gesamtzaehler.CV" Destination="GesamtzaehlerVergleich.CV" Comment="" dx1="80.0"/>
+		</DataConnections>
 	</SubAppNetwork>
 </SubAppType>
