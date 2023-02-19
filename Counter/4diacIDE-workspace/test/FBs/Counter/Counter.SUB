@@ -11,85 +11,92 @@
 		</SubAppEventInputs>
 	</SubAppInterfaceList>
 	<SubAppNetwork>
-		<SubApp Name="mapping_Buttons" Type="mapping_Buttons" Comment="" x="133.33333333333334" y="-833.3333333333334">
+		<SubApp Name="mapping_Buttons" Type="mapping_Buttons" Comment="" x="129.41176470588235" y="-829.4117647058823">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="mapping_Softkeys" Type="mapping_Softkeys" Comment="" x="133.33333333333334" y="-406.6666666666667">
+		<SubApp Name="mapping_Softkeys" Type="mapping_Softkeys" Comment="" x="117.6470588235294" y="-470.5882352941176">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="mapping_aux" Type="mapping_aux" Comment="" x="133.33333333333334" y="-6.666666666666667">
+		<SubApp Name="mapping_aux" Type="mapping_aux" Comment="" x="117.6470588235294" y="-117.6470588235294">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="2400.0" y="933.3333333333334">
+		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="2400.0" y="929.4117647058823">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2400.0" y="2933.3333333333335">
+		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2400.0" y="2929.411764705882">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="MinusMinus" Type="MinusMinus" Comment="" x="0.0" y="1600.0">
+		<SubApp Name="MinusMinus" Type="MinusMinus" Comment="" x="0.0" y="1599.9999999999998">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
 		<SubApp Name="PlusPlus" Type="PlusPlus" Comment="" x="0.0" y="1200.0">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="2000.0">
+		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="1999.9999999999998">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="3553.3333333333335">
+		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="3552.941176470588">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
-		<SubApp Name="GesamtzaehlerVergleich" Type="GesamtzaehlerVergleich" Comment="" x="4266.666666666667" y="666.6666666666667">
+		<SubApp Name="GesamtzaehlerVergleich" Type="GesamtzaehlerVergleich" Comment="" x="4264.7058823529405" y="664.7058823529411">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+		</SubApp>
+		<SubApp Name="mapping_NumericValue" Type="mapping_NumericValue" Comment="" x="117.6470588235294" y="-1176.4705882352941">
+			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 		</SubApp>
 		<EventConnections>
-			<Connection Source="INIT" Destination="mapping_Softkeys.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="mapping_Buttons.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="mapping_aux.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="Gesamtzaehler.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="Tageszaehler.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="PlusPlus.IND" Destination="Gesamtzaehler.CU" Comment="" dx1="873.3333333333334"/>
-			<Connection Source="PlusPlus.IND" Destination="Tageszaehler.CU" Comment="" dx1="866.6666666666667"/>
-			<Connection Source="MinusMinus.IND" Destination="Gesamtzaehler.CD" Comment="" dx1="1173.3333333333335"/>
-			<Connection Source="MinusMinus.IND" Destination="Tageszaehler.CD" Comment="" dx1="1180.0"/>
-			<Connection Source="INIT" Destination="PlusPlus.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="MinusMinus.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="Reset_Gesamtzaehler.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="INIT" Destination="Reset_Tageszaehler.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="Reset_Gesamtzaehler.IND" Destination="Gesamtzaehler.R" Comment="" dx1="953.3333333333334"/>
-			<Connection Source="Reset_Tageszaehler.IND" Destination="Tageszaehler.R" Comment="" dx1="1000.0"/>
-			<Connection Source="INIT" Destination="GesamtzaehlerVergleich.INIT" Comment="" dx1="80.0"/>
-			<Connection Source="Gesamtzaehler.CNF" Destination="GesamtzaehlerVergleich.REQ" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="mapping_Softkeys.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="mapping_Buttons.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="mapping_aux.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="Gesamtzaehler.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="Tageszaehler.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="PlusPlus.IND" Destination="Gesamtzaehler.CU" Comment="" dx1="870.5882352941176"/>
+			<Connection Source="PlusPlus.IND" Destination="Tageszaehler.CU" Comment="" dx1="864.7058823529411"/>
+			<Connection Source="MinusMinus.IND" Destination="Gesamtzaehler.CD" Comment="" dx1="1170.5882352941176"/>
+			<Connection Source="MinusMinus.IND" Destination="Tageszaehler.CD" Comment="" dx1="1176.4705882352941"/>
+			<Connection Source="INIT" Destination="PlusPlus.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="MinusMinus.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="Reset_Gesamtzaehler.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="Reset_Tageszaehler.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="Reset_Gesamtzaehler.IND" Destination="Gesamtzaehler.R" Comment="" dx1="952.9411764705882"/>
+			<Connection Source="Reset_Tageszaehler.IND" Destination="Tageszaehler.R" Comment="" dx1="999.9999999999999"/>
+			<Connection Source="INIT" Destination="GesamtzaehlerVergleich.INIT" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="Gesamtzaehler.CNF" Destination="GesamtzaehlerVergleich.REQ" Comment="" dx1="76.47058823529412"/>
+			<Connection Source="INIT" Destination="mapping_NumericValue.INIT" Comment="" dx1="647.0588235294117"/>
 		</EventConnections>
 		<DataConnections>
-			<Connection Source="Gesamtzaehler.CV" Destination="GesamtzaehlerVergleich.CV" Comment="" dx1="80.0"/>
+			<Connection Source="Gesamtzaehler.CV" Destination="GesamtzaehlerVergleich.CV" Comment="" dx1="76.47058823529412"/>
 		</DataConnections>
 	</SubAppNetwork>
 </SubAppType>
