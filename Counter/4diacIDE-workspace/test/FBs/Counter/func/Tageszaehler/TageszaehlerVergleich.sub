@@ -38,7 +38,7 @@
 			<Parameter Name="u16ObjId" Value="21003"/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="Q_NumericValue_Tageszaehler_Ziel_erreicht.INIT" Comment="" dx1="1726.6666666666667"/>
+			<Connection Source="INIT" Destination="Q_NumericValue_Tageszaehler_Ziel_erreicht.INIT" Comment="" dx1="4520.0"/>
 			<Connection Source="REQ" Destination="F_GE.REQ" Comment="" dx1="660.0"/>
 			<Connection Source="F_GE.CNF" Destination="F_SEL.REQ" Comment="" dx1="700.0"/>
 			<Connection Source="F_SEL.CNF" Destination="Q_NumericValue_Tageszaehler_Ziel_erreicht.REQ" Comment="" dx1="380.0"/>
