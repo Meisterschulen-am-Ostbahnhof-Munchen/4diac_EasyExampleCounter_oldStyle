@@ -40,18 +40,18 @@
 			<Parameter Name="KEY" Value="'Tageszaehler'"/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="Q_NumericValue_Tageszaehler.INIT" Comment="" dx1="4213.333333333334"/>
+			<Connection Source="INIT" Destination="Q_NumericValue_Tageszaehler.INIT" Comment="" dx1="4026.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.CO" Destination="Q_NumericValue_Tageszaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.RO" Destination="Q_NumericValue_Tageszaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.LDO" Destination="Q_NumericValue_Tageszaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="CU" Destination="E_CTUD_UDINT_Tageszaehler.CU" Comment="" dx1="886.6666666666667"/>
 			<Connection Source="CD" Destination="E_CTUD_UDINT_Tageszaehler.CD" Comment="" dx1="780.0"/>
 			<Connection Source="R" Destination="E_CTUD_UDINT_Tageszaehler.R" Comment="" dx1="793.3333333333334"/>
-			<Connection Source="INIT" Destination="NVS_UDINT_Tageszaehler.INIT" Comment="" dx1="4226.666666666667"/>
+			<Connection Source="INIT" Destination="NVS_UDINT_Tageszaehler.INIT" Comment="" dx1="4026.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.CO" Destination="NVS_UDINT_Tageszaehler.SET" Comment="" dx1="406.6666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.RO" Destination="NVS_UDINT_Tageszaehler.SET" Comment="" dx1="300.0"/>
 			<Connection Source="NVS_UDINT_Tageszaehler.GETO" Destination="E_CTUD_UDINT_Tageszaehler.LD" Comment="" dx1="406.6666666666667" dx2="240.0" dy="-560.0"/>
-			<Connection Source="NVS_UDINT_Tageszaehler.INITO" Destination="NVS_UDINT_Tageszaehler.GET" Comment="" dx1="273.33333333333337" dx2="453.33333333333337" dy="-193.33333333333334"/>
+			<Connection Source="NVS_UDINT_Tageszaehler.INITO" Destination="NVS_UDINT_Tageszaehler.GET" Comment="" dx1="273.33333333333337" dx2="693.3333333333334" dy="-193.33333333333334"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.CO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.RO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.LDO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
