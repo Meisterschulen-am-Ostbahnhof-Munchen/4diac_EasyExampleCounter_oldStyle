@@ -12,72 +12,78 @@
 	</SubAppInterfaceList>
 	<SubAppNetwork>
 		<SubApp Name="mapping_Buttons" Type="mapping_Buttons" Comment="" x="0.0" y="-933.3333333333334">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="mapping_Softkeys" Type="mapping_Softkeys" Comment="" x="0.0" y="-533.3333333333334">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="mapping_aux" Type="mapping_aux" Comment="" x="0.0" y="-133.33333333333334">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="2400.0" y="926.6666666666667">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2400.0" y="2926.666666666667">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="MinusMinus" Type="MinusMinus" Comment="" x="0.0" y="1593.3333333333335">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="PlusPlus" Type="PlusPlus" Comment="" x="0.0" y="1200.0">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="1993.3333333333335">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="3546.666666666667">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="GesamtzaehlerVergleich" Type="GesamtzaehlerVergleich" Comment="" x="4400.0" y="660.0">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="mapping_NumericValue" Type="mapping_NumericValue" Comment="" x="0.0" y="-1333.3333333333335">
-			<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
-			<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="TageszaehlerVergleich" Type="TageszaehlerVergleich" Comment="" x="4400.0" y="2666.666666666667">
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
+			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+		</SubApp>
+		<SubApp Name="VT_active" Type="VT_active" Comment="" x="1066.6666666666667" y="266.6666666666667">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>

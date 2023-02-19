@@ -10,6 +10,8 @@
 			</SubAppEvent>
 			<SubAppEvent Name="REQ" Type="Event" Comment="Normal Execution Request">
 			</SubAppEvent>
+			<SubAppEvent Name="rVT" Type="Event" Comment="refresh VT">
+			</SubAppEvent>
 		</SubAppEventInputs>
 		<InputVars>
 			<VarDeclaration Name="CV" Type="UDINT" Comment="Counter Value"/>
@@ -48,6 +50,7 @@
 			<Connection Source="INIT" Destination="Q_NumericValue_Gesamtziel.INIT" Comment="" dx1="6888.235294117647"/>
 			<Connection Source="NVS_UDINT_Gesamtziel.GETO" Destination="F_GE.REQ" Comment="" dx1="464.70588235294116" dx2="252.9411764705882" dy="-752.9411764705882"/>
 			<Connection Source="NVS_UDINT_Gesamtziel.SETO" Destination="F_GE.REQ" Comment="" dx1="376.4705882352941" dx2="364.70588235294116" dy="-529.4117647058823"/>
+			<Connection Source="rVT" Destination="Q_NumericValue_Gesamtziel.REQ" Comment="" dx1="6880.0"/>
 		</EventConnections>
 		<DataConnections>
 			<Connection Source="CV" Destination="F_GE.IN1" Comment="" dx1="335.2941176470588"/>

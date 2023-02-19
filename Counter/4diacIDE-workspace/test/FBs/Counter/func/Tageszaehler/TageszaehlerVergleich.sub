@@ -10,6 +10,8 @@
 			</SubAppEvent>
 			<SubAppEvent Name="REQ" Type="Event" Comment="Normal Execution Request">
 			</SubAppEvent>
+			<SubAppEvent Name="rVT" Type="Event" Comment="refresh VT">
+			</SubAppEvent>
 		</SubAppEventInputs>
 		<InputVars>
 			<VarDeclaration Name="CV" Type="UDINT" Comment="Counter Value"/>
@@ -32,7 +34,7 @@
 		<FB Name="NumberVariable_Tagesziel" Type="IUDINT" Comment="" x="2346.666666666667" y="1053.3333333333335">
 			<Parameter Name="QI" Value="TRUE"/>
 		</FB>
-		<FB Name="Q_NumericValue_Tagesziel" Type="Q_NumericValue" Comment="" x="8113.333333333334" y="940.0">
+		<FB Name="Q_NumericValue_Tagesziel" Type="Q_NumericValue" Comment="" x="8400.0" y="933.3333333333334">
 			<Parameter Name="u16ObjId" Value="21003"/>
 		</FB>
 		<EventConnections>
@@ -45,9 +47,10 @@
 			<Connection Source="NumberVariable_Tagesziel.IND" Destination="NVS_UDINT_Tagesziel.SET" Comment="" dx1="593.3333333333334"/>
 			<Connection Source="NVS_UDINT_Tagesziel.INITO" Destination="NVS_UDINT_Tagesziel.GET" Comment="" dx1="300.0" dx2="300.0" dy="-300.0"/>
 			<Connection Source="NVS_UDINT_Tagesziel.GETO" Destination="Q_NumericValue_Tagesziel.REQ" Comment="" dx1="760.0"/>
-			<Connection Source="INIT" Destination="Q_NumericValue_Tagesziel.INIT" Comment="" dx1="6620.0"/>
+			<Connection Source="INIT" Destination="Q_NumericValue_Tagesziel.INIT" Comment="" dx1="6993.333333333334"/>
 			<Connection Source="NVS_UDINT_Tagesziel.GETO" Destination="F_GE.REQ" Comment="" dx1="460.0" dx2="246.66666666666669" dy="-746.6666666666667"/>
 			<Connection Source="NVS_UDINT_Tagesziel.SETO" Destination="F_GE.REQ" Comment="" dx1="373.33333333333337" dx2="360.0" dy="-526.6666666666667"/>
+			<Connection Source="rVT" Destination="Q_NumericValue_Tagesziel.REQ" Comment="" dx1="6880.0"/>
 		</EventConnections>
 		<DataConnections>
 			<Connection Source="CV" Destination="F_GE.IN1" Comment="" dx1="333.33333333333337"/>
