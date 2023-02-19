@@ -4,34 +4,34 @@
 	</VersionInfo>
 	<Application Name="testApp" Comment="">
 		<SubAppNetwork>
-			<SubApp Name="Counter" Type="Counter" Comment="" x="1620.0" y="1233.3333333333335">
+			<SubApp Name="Counter" Type="Counter" Comment="" x="1617.6470588235293" y="1229.4117647058822">
 				<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 				<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-				<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-				<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+				<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+				<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 			</SubApp>
 		</SubAppNetwork>
 	</Application>
-	<Device Name="FORTE_PC" Type="FORTE_PC" Comment="" x="3680.0" y="1933.3333333333335">
+	<Device Name="FORTE_PC" Type="FORTE_PC" Comment="" x="3676.4705882352937" y="1929.4117647058822">
 		<Parameter Name="MGR_ID" Value="&quot;192.168.4.1:61499&quot;"/>
-		<Attribute Name="Profile" Type="STRING" Value="DynamicTypeLoad"/>
+		<Attribute Name="Profile" Type="STRING" Value="HOLOBLOC"/>
 		<Attribute Name="Color" Type="STRING" Value="255,190,111"/>
 		<Resource Name="EMB_RES" Type="EMB_RES" Comment="" x="0.0" y="0.0">
 			<FBNetwork>
-				<SubApp Name="Counter" Type="Counter" Comment="" x="1600.0" y="266.6666666666667">
+				<SubApp Name="Counter" Type="Counter" Comment="" x="1599.9999999999998" y="264.70588235294116">
 					<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 					<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-					<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-					<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
+					<Attribute Name="width" Type="LREAL" Value="1176.4705882352941"/>
+					<Attribute Name="height" Type="LREAL" Value="588.2352941176471"/>
 				</SubApp>
 				<EventConnections>
-					<Connection Source="START.COLD" Destination="Counter.INIT" Comment="" dx1="406.6666666666667"/>
+					<Connection Source="START.COLD" Destination="Counter.INIT" Comment="" dx1="405.88235294117646"/>
 				</EventConnections>
 			</FBNetwork>
 		</Resource>
 	</Device>
 	<Mapping From="testApp.Counter" To="FORTE_PC.EMB_RES.Counter"/>
-	<Segment Name="Ethernet" Type="Ethernet" Comment="" x="4000.0" y="1333.3333333333335" dx1="2000.0">
+	<Segment Name="Ethernet" Type="Ethernet" Comment="" x="3999.9999999999995" y="1329.4117647058822" dx1="1999.9999999999998">
 		<Attribute Name="Color" Type="STRING" Value="76,206,126"/>
 	</Segment>
 	<Link SegmentName="Ethernet" CommResource="FORTE_PC" Comment="">
