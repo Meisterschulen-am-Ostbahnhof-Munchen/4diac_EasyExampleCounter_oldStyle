@@ -4,9 +4,11 @@
 
 ![Join the chat at https://gitter.im/Meisterschulen-am-Ostbahnhof-Munchen/4diac_EasyExampleCounter](https://badges.gitter.im/Meisterschulen-am-Ostbahnhof-Munchen/4diac_EasyExampleCounter.svg)
 
+![](https://user-images.githubusercontent.com/69573151/219950282-40bd7ca4-745e-4b5c-b6a9-167d4bd9227e.png)
+
 ## Empfohlene Lektüre:
 
-Nichtflüchtiges Speichern von Variablen: 
+Nichtflüchtiges Speichern von Variablen:
 
 [https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/de/latest/typelibrary/esp32/nvs/NVS_UDINT.html](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/de/latest/typelibrary/esp32/nvs/NVS_UDINT.html)
 
