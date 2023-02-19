@@ -56,6 +56,7 @@
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.RO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.LDO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="rVT" Destination="Q_NumericValue_Tageszaehler.REQ" Comment="" dx1="3666.666666666667"/>
+			<Connection Source="rVT" Destination="CNF" Comment="" dx1="7640.0"/>
 		</EventConnections>
 		<DataConnections>
 			<Connection Source="E_CTUD_UDINT_Tageszaehler.CV" Destination="Q_NumericValue_Tageszaehler.u32NewValue" Comment="" dx1="620.0"/>
