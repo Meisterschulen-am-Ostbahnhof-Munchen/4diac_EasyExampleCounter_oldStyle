@@ -40,18 +40,18 @@
 			<Parameter Name="KEY" Value="'Gesamtzaehler'"/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="Q_NumericValue_Gesamtzaehler.INIT" Comment="" dx1="4213.333333333334"/>
+			<Connection Source="INIT" Destination="Q_NumericValue_Gesamtzaehler.INIT" Comment="" dx1="4053.3333333333335"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.CO" Destination="Q_NumericValue_Gesamtzaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.RO" Destination="Q_NumericValue_Gesamtzaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.LDO" Destination="Q_NumericValue_Gesamtzaehler.REQ" Comment="" dx1="80.0"/>
 			<Connection Source="CU" Destination="E_CTUD_UDINT_Gesamtzaehler.CU" Comment="" dx1="886.6666666666667"/>
 			<Connection Source="CD" Destination="E_CTUD_UDINT_Gesamtzaehler.CD" Comment="" dx1="780.0"/>
 			<Connection Source="R" Destination="E_CTUD_UDINT_Gesamtzaehler.R" Comment="" dx1="793.3333333333334"/>
-			<Connection Source="INIT" Destination="NVS_UDINT_Gesamtzaehler.INIT" Comment="" dx1="4226.666666666667"/>
+			<Connection Source="INIT" Destination="NVS_UDINT_Gesamtzaehler.INIT" Comment="" dx1="4053.3333333333335"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.CO" Destination="NVS_UDINT_Gesamtzaehler.SET" Comment="" dx1="406.6666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.RO" Destination="NVS_UDINT_Gesamtzaehler.SET" Comment="" dx1="300.0"/>
 			<Connection Source="NVS_UDINT_Gesamtzaehler.GETO" Destination="E_CTUD_UDINT_Gesamtzaehler.LD" Comment="" dx1="406.6666666666667" dx2="240.0" dy="-560.0"/>
-			<Connection Source="NVS_UDINT_Gesamtzaehler.INITO" Destination="NVS_UDINT_Gesamtzaehler.GET" Comment="" dx1="273.33333333333337" dx2="453.33333333333337" dy="-193.33333333333334"/>
+			<Connection Source="NVS_UDINT_Gesamtzaehler.INITO" Destination="NVS_UDINT_Gesamtzaehler.GET" Comment="" dx1="273.33333333333337" dx2="586.6666666666667" dy="-193.33333333333334"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.CO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.RO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
 			<Connection Source="E_CTUD_UDINT_Gesamtzaehler.LDO" Destination="CNF" Comment="" dx1="2606.666666666667"/>
