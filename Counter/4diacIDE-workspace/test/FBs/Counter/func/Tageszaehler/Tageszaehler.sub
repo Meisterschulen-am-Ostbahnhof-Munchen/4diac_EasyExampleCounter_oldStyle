@@ -32,12 +32,12 @@
 	<SubAppNetwork>
 		<FB Name="E_CTUD_UDINT_Tageszaehler" Type="E_CTUD_UDINT" Comment="" x="400.0" y="400.0">
 		</FB>
-		<FB Name="Q_NumericValue_Tageszaehler" Type="Q_NumericValue" Comment="" x="2933.3333333333335" y="933.3333333333334">
-			<Parameter Name="u16ObjId" Value="21000"/>
+		<FB Name="Q_NumericValue_Tageszaehler" Type="Q_NumericValue" Comment="" x="4400.0" y="933.3333333333334">
+			<Parameter Name="u16ObjId" Value="NumberVariable_Tageszaehler"/>
 		</FB>
 		<FB Name="NVS_UDINT_Tageszaehler" Type="NVS_UDINT" Comment="" x="2933.3333333333335" y="2266.666666666667">
 			<Parameter Name="QI" Value="TRUE"/>
-			<Parameter Name="KEY" Value="'Tageszaehler'"/>
+			<Parameter Name="KEY" Value="KEY_TAGESZAEHLER"/>
 		</FB>
 		<EventConnections>
 			<Connection Source="INIT" Destination="Q_NumericValue_Tageszaehler.INIT" Comment="" dx1="4026.666666666667"/>
