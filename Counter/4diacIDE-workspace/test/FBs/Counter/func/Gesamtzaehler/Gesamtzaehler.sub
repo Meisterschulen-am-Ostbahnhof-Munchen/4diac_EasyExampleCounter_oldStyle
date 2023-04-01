@@ -32,12 +32,12 @@
 	<SubAppNetwork>
 		<FB Name="E_CTUD_UDINT_Gesamtzaehler" Type="E_CTUD_UDINT" Comment="" x="400.0" y="400.0">
 		</FB>
-		<FB Name="Q_NumericValue_Gesamtzaehler" Type="Q_NumericValue" Comment="" x="2933.3333333333335" y="933.3333333333334">
-			<Parameter Name="u16ObjId" Value="21001"/>
+		<FB Name="Q_NumericValue_Gesamtzaehler" Type="Q_NumericValue" Comment="" x="4266.666666666667" y="933.3333333333334">
+			<Parameter Name="u16ObjId" Value="NumberVariable_Gesamtzaehler"/>
 		</FB>
 		<FB Name="NVS_UDINT_Gesamtzaehler" Type="NVS_UDINT" Comment="" x="2933.3333333333335" y="2266.666666666667">
 			<Parameter Name="QI" Value="TRUE"/>
-			<Parameter Name="KEY" Value="'Gesamtzaehler'"/>
+			<Parameter Name="KEY" Value="KEY_GESAMTZAEHLER"/>
 		</FB>
 		<EventConnections>
 			<Connection Source="INIT" Destination="Q_NumericValue_Gesamtzaehler.INIT" Comment="" dx1="4053.3333333333335"/>
