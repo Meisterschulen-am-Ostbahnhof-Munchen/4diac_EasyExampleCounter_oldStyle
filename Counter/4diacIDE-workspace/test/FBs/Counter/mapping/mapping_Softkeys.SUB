@@ -14,13 +14,13 @@
 		<FB Name="UT_SoftkeyMapping_UP" Type="UT_SoftkeyMapping_UP" Comment="" x="1066.6666666666667" y="933.3333333333334">
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
-			<Parameter Name="u16ObjId_1" Value="5000"/>
+			<Parameter Name="u16ObjId_1" Value="SoftKey_PlusPlus"/>
 			<Parameter Name="DigitalInput_1" Value="&quot;SoftKey_PlusPlus&quot;"/>
-			<Parameter Name="u16ObjId_2" Value="5001"/>
+			<Parameter Name="u16ObjId_2" Value="SoftKey_Reset_Gesamtzaehler"/>
 			<Parameter Name="DigitalInput_2" Value="&quot;SoftKey_Reset_Gesamtzaehler&quot;"/>
-			<Parameter Name="u16ObjId_3" Value="5002"/>
+			<Parameter Name="u16ObjId_3" Value="SoftKey_Reset_Tageszaehler"/>
 			<Parameter Name="DigitalInput_3" Value="&quot;SoftKey_Reset_Tageszaehler&quot;"/>
-			<Parameter Name="u16ObjId_4" Value="5003"/>
+			<Parameter Name="u16ObjId_4" Value="SoftKey_MinusMinus"/>
 			<Parameter Name="DigitalInput_4" Value="&quot;SoftKey_MinusMinus&quot;"/>
 		</FB>
 		<EventConnections>
