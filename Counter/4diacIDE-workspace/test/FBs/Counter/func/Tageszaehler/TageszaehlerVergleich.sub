@@ -33,7 +33,7 @@
 		<FB Name="Q_NumericValue_Tagesziel" Type="Q_NumericValue" Comment="" x="9200.0" y="933.3333333333334">
 			<Parameter Name="u16ObjId" Value="NumberVariable_Tagesziel"/>
 		</FB>
-		<FB Name="F_SEL" Type="F_SEL_UINT" Comment="" x="4526.666666666667" y="-526.6666666666667">
+		<FB Name="F_SEL" Type="F_SEL" Comment="" x="4526.666666666667" y="-526.6666666666667">
 			<Parameter Name="IN0" Value="ID_NULL"/>
 			<Parameter Name="IN1" Value="OutputString_ZielErreicht"/>
 		</FB>
