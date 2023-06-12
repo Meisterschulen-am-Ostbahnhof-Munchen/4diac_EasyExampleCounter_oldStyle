@@ -11,16 +11,16 @@
 		</SubAppEventInputs>
 	</SubAppInterfaceList>
 	<SubAppNetwork>
-		<FB Name="UT_SoftkeyMapping_UP" Type="UT_NumericValueInputMapping" Comment="" x="1058.8235294117646" y="929.4117647058823">
+		<FB Name="UT_SoftkeyMapping_UP" Type="UT_NumericValueInputMapping" Comment="" x="1053.3333333333335" y="926.6666666666667">
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
-			<Parameter Name="u16ObjId_1" Value="21002"/>
+			<Parameter Name="u16ObjId_1" Value="NumberVariable_Gesamtziel"/>
 			<Parameter Name="NumericValueInput_1" Value="&quot;NumberVariable_Gesamtziel&quot;"/>
-			<Parameter Name="u16ObjId_2" Value="21003"/>
+			<Parameter Name="u16ObjId_2" Value="NumberVariable_Tagesziel"/>
 			<Parameter Name="NumericValueInput_2" Value="&quot;NumberVariable_Tagesziel&quot;"/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="UT_SoftkeyMapping_UP.INIT" Comment="" dx1="76.47058823529412" dx2="76.47058823529412" dy="0.0"/>
+			<Connection Source="INIT" Destination="UT_SoftkeyMapping_UP.INIT" Comment="" dx1="73.33333333333334" dx2="73.33333333333334" dy="0.0"/>
 		</EventConnections>
 	</SubAppNetwork>
 </SubAppType>
