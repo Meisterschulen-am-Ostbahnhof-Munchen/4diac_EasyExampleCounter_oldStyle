@@ -1,4 +1,4 @@
-// ISO-Designer ISO 11783   Version 5.6.1.5243 Jetter AG
+// ISO-Designer ISO 11783   Version 5.6.2.5533 Jetter AG
 // Do not change!
 
 #include "DefaultPool.iop.h"
@@ -29,7 +29,7 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_DefaultPool[] = {
 		XYREF(Container_Gesamtzaehler, 5, 5),
 		XYREF(Container_Tageszaehler, 202, 5),
 		XYREF(OutputString_ZielErreicht, 500, 150),
-	ID(Container_Gesamtzaehler), TYPEID_CONTAINER, WORD(191), WORD(470), 0, 8, 0, 
+	ID(Container_Gesamtzaehler), TYPEID_CONTAINER, WORD(192), WORD(470), 0, 8, 0, 
 		XYREF(Rectangle_Box, 0, 0),
 		XYREF(OutputString_Gesamtzaehler, 5, 5),
 		XYREF(Button_Reset_Gesamtzaehler, 5, 351),
@@ -38,7 +38,7 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_DefaultPool[] = {
 		XYREF(InputNumber_Gesamtziel, 65, 90),
 		XYREF(OutputString_Ziel, 5, 90),
 		XYREF(ObjectPointer_Gesamtziel, 5, 150),
-	ID(Container_Tageszaehler), TYPEID_CONTAINER, WORD(191), WORD(470), 0, 8, 0, 
+	ID(Container_Tageszaehler), TYPEID_CONTAINER, WORD(192), WORD(470), 0, 8, 0, 
 		XYREF(Rectangle_Box, 0, 0),
 		XYREF(OutputString_Tageszaehler, 5, 5),
 		XYREF(Button_Reset_Tageszaehler, 5, 351),
@@ -108,7 +108,7 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_DefaultPool[] = {
 	ID(OutputNumber_Gesamtzaehler), TYPEID_OUTNUM, WORD(120), WORD(60), COLOR_WHITE, ID(FontAttributes_Default), 1,
 		ID(NumberVariable_Gesamtzaehler), LONG(0UL), LONG(0L), FLOAT_1, 0, 0, 2, 0,
 	ID(Rectangle_Box), TYPEID_OUTRECT, ID(LineAttributes_Border), 
-		WORD(191), WORD(470), 0, ID(FillAttributes_DarkerBG), 0, 
+		WORD(192), WORD(470), 0, ID(FillAttributes_DarkerBG), 0, 
 	ID(Meter_Gesamtzaehler), TYPEID_OUTMETER, WORD(80), COLOR_BLACK, COLOR_BLACK, COLOR_BLACK, 13, 11, 165, 105, 
 		WORD(0), WORD(100), ID(NumberVariable_Gesamtzaehler), WORD(0), 0, 
 	ID(Meter_Tageszaehler), TYPEID_OUTMETER, WORD(80), COLOR_BLACK, COLOR_BLACK, COLOR_BLACK, 13, 11, 165, 105, 
@@ -354,6 +354,6 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_DefaultPool[] = {
 	ID(ObjectPointer_Gesamtziel), TYPEID_OBJPTR, ID(ID_NULL), 
 	ID(AuxFunction2_PlusPlus), TYPEID_AUXFUNC2, COLOR(187), 130, 1, 
 		XYREF(IconSoftKey_PlusPlus, 4, 4),
-	ID(AuxFunction2_MinusMinus), TYPEID_AUXFUNC2, COLOR(187), 255, 1, 
+	ID(AuxFunction2_MinusMinus), TYPEID_AUXFUNC2, COLOR(187), 130, 1, 
 		XYREF(Icon_SoftKey_MinusMinus, 4, 4),
 }; // isoOP_DefaultPool
