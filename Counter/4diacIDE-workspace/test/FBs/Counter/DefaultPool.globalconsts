@@ -4,7 +4,7 @@ VAR_GLOBAL CONSTANT
     ISO_DESIGNATOR_WIDTH                     : UINT    := 80;
     ISO_DESIGNATOR_HEIGHT                    : UINT    := 80;
     ISO_MASK_SIZE                            : UINT    := 480;
-    ISO_VERSION_LABEL                        : STRING  := "       ";
+    ISO_VERSION_LABEL                        : STRING := '       ';
     MASK_WIDTH                               : UINT    := 480;
     MASK_HEIGHT                              : UINT    := 480;
     WorkingSet_0                             : UINT    := 0;
