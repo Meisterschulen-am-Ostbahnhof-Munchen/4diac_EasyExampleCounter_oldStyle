@@ -12,7 +12,7 @@
 		</SubAppEventInputs>
 	</SubAppInterfaceList>
 	<SubAppNetwork>
-		<FB Name="UT_AuxiliaryInputMapping" Type="UT_AuxiliaryInputMapping" Comment="" x="-1600.0" y="-1066.6666666666667">
+		<FB Name="UT_AuxiliaryInputMapping" Type="UT_AuxiliaryInputMapping_Type_02_Bool_NonLatched" Comment="" x="-1600.0" y="-1066.6666666666667">
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
 			<Parameter Name="u16ObjId_1" Value="AuxFunction2_PlusPlus"/>
@@ -22,7 +22,7 @@
 			<Parameter Name="u16ObjId_3" Value="31002"/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="UT_AuxiliaryInputMapping.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="UT_AuxiliaryInputMapping.INIT" Comment="" dx1="80.0" dx2="80.0" dy="0.0"/>
 		</EventConnections>
 	</SubAppNetwork>
 </SubAppType>
