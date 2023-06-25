@@ -21,10 +21,12 @@
       <Event Comment="Confirmation of Requested Service" Name="CNF" Type="Event">
         <With Var="QO"/>
         <With Var="STATUS"/>
+        <With Var="IN"/>
       </Event>
       <Event Comment="" Name="IND" Type="Event">
         <With Var="QO"/>
         <With Var="STATUS"/>
+        <With Var="IN"/>
       </Event>
     </EventOutputs>
     <InputVars>
