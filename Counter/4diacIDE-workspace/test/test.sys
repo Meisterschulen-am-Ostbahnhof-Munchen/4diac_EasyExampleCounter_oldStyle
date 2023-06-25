@@ -9,8 +9,6 @@
 		<Resource Name="EMB_RES" Type="EMB_RES" Comment="" x="0.0" y="0.0">
 			<FBNetwork>
 				<SubApp Name="Counter" Type="Counter" Comment="" x="1866.6666666666667" y="0.0">
-					<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-					<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 				</SubApp>
 				<EventConnections>
 					<Connection Source="START.COLD" Destination="Counter.INIT" Comment=""/>
