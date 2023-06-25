@@ -37,7 +37,7 @@
     <OutputVars>
       <VarDeclaration Comment="Event Output Qualifier" Name="QO" Type="BOOL"/>
       <VarDeclaration Comment="Service Status" Name="STATUS" Type="STRING"/>
-      <VarDeclaration Comment="Input data from resource" Name="IN" Type=""/>
+      <VarDeclaration Comment="Input data from resource" Name="IN" Type="UDINT"/>
     </OutputVars>
   </InterfaceList>
 </FBType>
