@@ -34,7 +34,7 @@
 			<VarDeclaration Name="u16OffTimeMs" Type="UINT" Comment="Off time duration in ms"/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u8OldNumOfRepit" Type="USINT" Comment="Old Number of repetitions Range: 1 - 255"/>
 			<VarDeclaration Name="u16OldFrequency" Type="UINT" Comment="Old Frequency"/>
 			<VarDeclaration Name="u16OldOnTimeMs" Type="UINT" Comment="Old on time duration in ms"/>

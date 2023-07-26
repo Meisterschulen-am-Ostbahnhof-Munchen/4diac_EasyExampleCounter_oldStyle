@@ -59,7 +59,7 @@
 				<ECAction Algorithm="alDown" Output="CNF"/>
 			</ECState>
 			<ECTransition Source="START" Destination="Init" Condition="INIT[TRUE = QI]" Comment="" x="1206.6666666666667" y="2260.0"/>
-			<ECTransition Source="Init" Destination="Neutral" Condition="1" Comment="" x="2026.6666666666667" y="2313.3333333333335"/>
+			<ECTransition Source="Init" Destination="Neutral" Condition="REQ" Comment="" x="2026.6666666666667" y="2313.3333333333335"/>
 			<ECTransition Source="Neutral" Destination="DeInit" Condition="INIT[FALSE = QI]" Comment="" x="2053.3333333333335" y="2680.0"/>
 			<ECTransition Source="Neutral" Destination="UP" Condition="REQ[INPUT &gt;= MI + DEAD + HYSTERESIS]" Comment="" x="5040.0" y="1173.3333333333335"/>
 			<ECTransition Source="DeInit" Destination="START" Condition="1" Comment="" x="1306.6666666666667" y="2780.0"/>

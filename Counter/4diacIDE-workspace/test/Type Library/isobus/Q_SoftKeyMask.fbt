@@ -31,7 +31,7 @@
 			<VarDeclaration Name="u16SoftKeyMaskId" Type="UINT" Comment="Object ID of (new) soft key mask "/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u8OldMaskType" Type="USINT" Comment=""/>
 			<VarDeclaration Name="u16OldDataMaskId" Type="UINT" Comment="Old object ID of active Mask "/>
 			<VarDeclaration Name="u16OldSoftKeyMaskId" Type="UINT" Comment="Old object ID of (new) soft key mask "/>

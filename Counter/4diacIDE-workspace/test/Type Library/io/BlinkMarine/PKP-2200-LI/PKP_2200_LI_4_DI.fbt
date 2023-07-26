@@ -34,14 +34,14 @@
 			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier"/>
 			<VarDeclaration Name="u8SAMember" Type="USINT" Comment="Node SA Default 21h" InitialValue="224"/>
 			<VarDeclaration Name="u16ObjId" Type="UINT" Comment="Dummy ! set to 65535 if in Doubt. 0 deactivates FB." InitialValue="65535"/>
-			<VarDeclaration Name="DigitalInput_Key_1" Type="WSTRING" Comment="" InitialValue="&quot;DigitalInput_Key_1&quot;"/>
-			<VarDeclaration Name="DigitalInput_Key_2" Type="WSTRING" Comment="" InitialValue="&quot;DigitalInput_Key_2&quot;"/>
-			<VarDeclaration Name="DigitalInput_Key_3" Type="WSTRING" Comment="" InitialValue="&quot;DigitalInput_Key_3&quot;"/>
-			<VarDeclaration Name="DigitalInput_Key_4" Type="WSTRING" Comment="" InitialValue="&quot;DigitalInput_Key_4&quot;"/>
+			<VarDeclaration Name="DigitalInput_Key_1" Type="WSTRING" Comment=""/>
+			<VarDeclaration Name="DigitalInput_Key_2" Type="WSTRING" Comment=""/>
+			<VarDeclaration Name="DigitalInput_Key_3" Type="WSTRING" Comment=""/>
+			<VarDeclaration Name="DigitalInput_Key_4" Type="WSTRING" Comment=""/>
 		</InputVars>
 		<OutputVars>
 			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="qTimedOut" Type="BOOL" Comment=""/>
 		</OutputVars>
 	</InterfaceList>

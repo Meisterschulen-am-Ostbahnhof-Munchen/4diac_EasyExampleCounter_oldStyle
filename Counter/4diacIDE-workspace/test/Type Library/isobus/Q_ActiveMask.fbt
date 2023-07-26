@@ -28,7 +28,7 @@
 			<VarDeclaration Name="u16NewMaskId" Type="UINT" Comment="Object ID of new active (data/alarm)-mask"/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u16OldMaskId" Type="UINT" Comment="Object ID of old active (data/alarm)-mask"/>
 			<VarDeclaration Name="s16result" Type="INT" Comment="retval see description"/>
 		</OutputVars>

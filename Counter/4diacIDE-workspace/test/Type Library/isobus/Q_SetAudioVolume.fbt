@@ -25,7 +25,7 @@
 			<VarDeclaration Name="u8Volume" Type="USINT" Comment="Volume 0 - 100 (%) "/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u8OldVolume" Type="USINT" Comment="Old volume 0 - 100 (%) "/>
 			<VarDeclaration Name="s16result" Type="INT" Comment="retval see description"/>
 		</OutputVars>

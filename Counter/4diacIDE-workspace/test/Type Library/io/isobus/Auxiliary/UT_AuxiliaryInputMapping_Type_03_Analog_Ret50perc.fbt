@@ -43,26 +43,26 @@
 		<InputVars>
 			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier"/>
 			<VarDeclaration Name="u8SAMember" Type="USINT" Comment="Dummy !, set to 255 if in doubt. 0 deactivates FB." InitialValue="255"/>
-			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1" InitialValue="31000"/>
-			<VarDeclaration Name="AnalogInput_1" Type="WSTRING" Comment="Identifier for Input 1" InitialValue="&quot;AuxInput_31000&quot;"/>
-			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2" InitialValue="31001"/>
-			<VarDeclaration Name="AnalogInput_2" Type="WSTRING" Comment="Identifier for Input 2" InitialValue="&quot;AuxInput_31001&quot;"/>
-			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3" InitialValue="31002"/>
-			<VarDeclaration Name="AnalogInput_3" Type="WSTRING" Comment="Identifier for Input 3" InitialValue="&quot;AuxInput_31002&quot;"/>
-			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4" InitialValue="31003"/>
-			<VarDeclaration Name="AnalogInput_4" Type="WSTRING" Comment="Identifier for Input 4" InitialValue="&quot;AuxInput_31003&quot;"/>
-			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5" InitialValue="31004"/>
-			<VarDeclaration Name="AnalogInput_5" Type="WSTRING" Comment="Identifier for Input 5" InitialValue="&quot;AuxInput_31004&quot;"/>
-			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6" InitialValue="31005"/>
-			<VarDeclaration Name="AnalogInput_6" Type="WSTRING" Comment="Identifier for Input 6" InitialValue="&quot;AuxInput_31005&quot;"/>
-			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7" InitialValue="31006"/>
-			<VarDeclaration Name="AnalogInput_7" Type="WSTRING" Comment="Identifier for Input 7" InitialValue="&quot;AuxInput_31006&quot;"/>
-			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8" InitialValue="31007"/>
-			<VarDeclaration Name="AnalogInput_8" Type="WSTRING" Comment="Identifier for Input 8" InitialValue="&quot;AuxInput_31007&quot;"/>
+			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1"/>
+			<VarDeclaration Name="AnalogInput_1" Type="WSTRING" Comment="Identifier for Input 1"/>
+			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2"/>
+			<VarDeclaration Name="AnalogInput_2" Type="WSTRING" Comment="Identifier for Input 2"/>
+			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3"/>
+			<VarDeclaration Name="AnalogInput_3" Type="WSTRING" Comment="Identifier for Input 3"/>
+			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4"/>
+			<VarDeclaration Name="AnalogInput_4" Type="WSTRING" Comment="Identifier for Input 4"/>
+			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5"/>
+			<VarDeclaration Name="AnalogInput_5" Type="WSTRING" Comment="Identifier for Input 5"/>
+			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6"/>
+			<VarDeclaration Name="AnalogInput_6" Type="WSTRING" Comment="Identifier for Input 6"/>
+			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7"/>
+			<VarDeclaration Name="AnalogInput_7" Type="WSTRING" Comment="Identifier for Input 7"/>
+			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8"/>
+			<VarDeclaration Name="AnalogInput_8" Type="WSTRING" Comment="Identifier for Input 8"/>
 		</InputVars>
 		<OutputVars>
 			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 		</OutputVars>
 	</InterfaceList>
 </FBType>

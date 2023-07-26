@@ -25,7 +25,7 @@
 			<VarDeclaration Name="u16ObjIdColourMap" Type="UINT" Comment="Object ID of Colour map object or FFFF to restore the default colour table (see A.3) "/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u16OldObjIdColourMap" Type="UINT" Comment="Old object ID of Colour map object or FFFF to restore the default colour table (see A.3) "/>
 			<VarDeclaration Name="s16result" Type="INT" Comment="retval see description"/>
 		</OutputVars>

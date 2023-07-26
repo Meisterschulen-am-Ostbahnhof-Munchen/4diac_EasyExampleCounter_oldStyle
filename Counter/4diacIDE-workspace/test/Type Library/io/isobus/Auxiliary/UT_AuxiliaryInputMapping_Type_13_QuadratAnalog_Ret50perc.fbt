@@ -51,34 +51,34 @@
 		<InputVars>
 			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier"/>
 			<VarDeclaration Name="u8SAMember" Type="USINT" Comment="Dummy !, set to 255 if in doubt. 0 deactivates FB." InitialValue="255"/>
-			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1" InitialValue="31000"/>
-			<VarDeclaration Name="AnalogInput_1_Axis_1" Type="WSTRING" Comment="Identifier for Input 1 Axis #1" InitialValue="&quot;AuxInput_31000_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_1_Axis_2" Type="WSTRING" Comment="Identifier for Input 1 Axis #2" InitialValue="&quot;AuxInput_31000_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2" InitialValue="31001"/>
-			<VarDeclaration Name="AnalogInput_2_Axis_1" Type="WSTRING" Comment="Identifier for Input 2 Axis #1" InitialValue="&quot;AuxInput_31001_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_2_Axis_2" Type="WSTRING" Comment="Identifier for Input 2 Axis #2" InitialValue="&quot;AuxInput_31001_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3" InitialValue="31002"/>
-			<VarDeclaration Name="AnalogInput_3_Axis_1" Type="WSTRING" Comment="Identifier for Input 3 Axis #1" InitialValue="&quot;AuxInput_31002_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_3_Axis_2" Type="WSTRING" Comment="Identifier for Input 3 Axis #2" InitialValue="&quot;AuxInput_31002_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4" InitialValue="31003"/>
-			<VarDeclaration Name="AnalogInput_4_Axis_1" Type="WSTRING" Comment="Identifier for Input 4 Axis #1" InitialValue="&quot;AuxInput_31003_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_4_Axis_2" Type="WSTRING" Comment="Identifier for Input 4 Axis #2" InitialValue="&quot;AuxInput_31003_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5" InitialValue="31004"/>
-			<VarDeclaration Name="AnalogInput_5_Axis_1" Type="WSTRING" Comment="Identifier for Input 5 Axis #1" InitialValue="&quot;AuxInput_31004_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_5_Axis_2" Type="WSTRING" Comment="Identifier for Input 5 Axis #2" InitialValue="&quot;AuxInput_31004_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6" InitialValue="31005"/>
-			<VarDeclaration Name="AnalogInput_6_Axis_1" Type="WSTRING" Comment="Identifier for Input 6 Axis #1" InitialValue="&quot;AuxInput_31005_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_6_Axis_2" Type="WSTRING" Comment="Identifier for Input 6 Axis #2" InitialValue="&quot;AuxInput_31005_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7" InitialValue="31006"/>
-			<VarDeclaration Name="AnalogInput_7_Axis_1" Type="WSTRING" Comment="Identifier for Input 7 Axis #1" InitialValue="&quot;AuxInput_31006_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_7_Axis_2" Type="WSTRING" Comment="Identifier for Input 7 Axis #2" InitialValue="&quot;AuxInput_31006_Axis_2&quot;"/>
-			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8" InitialValue="31007"/>
-			<VarDeclaration Name="AnalogInput_8_Axis_1" Type="WSTRING" Comment="Identifier for Input 8 Axis #1" InitialValue="&quot;AuxInput_31007_Axis_1&quot;"/>
-			<VarDeclaration Name="AnalogInput_8_Axis_2" Type="WSTRING" Comment="Identifier for Input 8 Axis #2" InitialValue="&quot;AuxInput_31007_Axis_2&quot;"/>
+			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1"/>
+			<VarDeclaration Name="AnalogInput_1_Axis_1" Type="WSTRING" Comment="Identifier for Input 1 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_1_Axis_2" Type="WSTRING" Comment="Identifier for Input 1 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2"/>
+			<VarDeclaration Name="AnalogInput_2_Axis_1" Type="WSTRING" Comment="Identifier for Input 2 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_2_Axis_2" Type="WSTRING" Comment="Identifier for Input 2 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3"/>
+			<VarDeclaration Name="AnalogInput_3_Axis_1" Type="WSTRING" Comment="Identifier for Input 3 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_3_Axis_2" Type="WSTRING" Comment="Identifier for Input 3 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4"/>
+			<VarDeclaration Name="AnalogInput_4_Axis_1" Type="WSTRING" Comment="Identifier for Input 4 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_4_Axis_2" Type="WSTRING" Comment="Identifier for Input 4 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5"/>
+			<VarDeclaration Name="AnalogInput_5_Axis_1" Type="WSTRING" Comment="Identifier for Input 5 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_5_Axis_2" Type="WSTRING" Comment="Identifier for Input 5 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6"/>
+			<VarDeclaration Name="AnalogInput_6_Axis_1" Type="WSTRING" Comment="Identifier for Input 6 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_6_Axis_2" Type="WSTRING" Comment="Identifier for Input 6 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7"/>
+			<VarDeclaration Name="AnalogInput_7_Axis_1" Type="WSTRING" Comment="Identifier for Input 7 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_7_Axis_2" Type="WSTRING" Comment="Identifier for Input 7 Axis #2"/>
+			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8"/>
+			<VarDeclaration Name="AnalogInput_8_Axis_1" Type="WSTRING" Comment="Identifier for Input 8 Axis #1"/>
+			<VarDeclaration Name="AnalogInput_8_Axis_2" Type="WSTRING" Comment="Identifier for Input 8 Axis #2"/>
 		</InputVars>
 		<OutputVars>
 			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 		</OutputVars>
 	</InterfaceList>
 </FBType>

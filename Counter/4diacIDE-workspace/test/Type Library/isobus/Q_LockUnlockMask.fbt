@@ -31,7 +31,7 @@
 			<VarDeclaration Name="u16LockTimeoutMs" Type="UINT" Comment="Lock timeout in ms or zero for no timeout "/>
 		</InputVars>
 		<OutputVars>
-			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="STATUS" Type="STRING" Comment="Service Status"/>
 			<VarDeclaration Name="u8OldLockCmd" Type="USINT" Comment="Old 0 = Unlock, 1 = Lock data mask or user-layout data mask"/>
 			<VarDeclaration Name="u16OldMaskId" Type="UINT" Comment="Old object ID of data mask or user layout data mask to lock or unlock "/>
 			<VarDeclaration Name="u16OldLockTimeoutMs" Type="UINT" Comment="Old lock timeout in ms or zero for no timeout "/>
