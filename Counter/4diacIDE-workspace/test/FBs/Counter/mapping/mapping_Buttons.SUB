@@ -12,19 +12,21 @@
 	</SubAppInterfaceList>
 	<SubAppNetwork>
 		<FB Name="UT_ButtonMapping_UP" Type="UT_ButtonMapping_UP" Comment="" x="900.0" y="900.0">
-			<Parameter Name="QI" Value="TRUE"/>
-			<Parameter Name="u8SAMember" Value="255"/>
-			<Parameter Name="u16ObjId_1" Value="Button_PlusPlus"/>
-			<Parameter Name="DigitalInput_1" Value="'Button_PlusPlus'"/>
-			<Parameter Name="u16ObjId_2" Value="Button_Reset_Gesamtzaehler"/>
-			<Parameter Name="DigitalInput_2" Value="'Button_Reset_Gesamtzaehler'"/>
-			<Parameter Name="u16ObjId_3" Value="Button_Reset_Tageszaehler"/>
-			<Parameter Name="DigitalInput_3" Value="'Button_Reset_Tageszaehler'"/>
-			<Parameter Name="u16ObjId_4" Value="Button_MinusMinus"/>
-			<Parameter Name="DigitalInput_4" Value="'Button_MinusMinus'"/>
+			<Parameter Name="QI" Value="TRUE" Comment=""/>
+			<Parameter Name="u8SAMember" Value="255" Comment=""/>
+			<Parameter Name="u16ObjId_1" Value="Button_PlusPlus" Comment=""/>
+			<Parameter Name="DigitalInput_1" Value="'Counter.PlusPlus.Button_PlusPlus'" Comment=""/>
+			<Parameter Name="u16ObjId_2" Value="Button_Reset_Gesamtzaehler" Comment=""/>
+			<Parameter Name="DigitalInput_2" Value="'Counter.Reset_Gesamtzaehler.Button_Reset_Gesamtzaehler'" Comment=""/>
+			<Parameter Name="u16ObjId_3" Value="Button_Reset_Tageszaehler" Comment=""/>
+			<Parameter Name="DigitalInput_3" Value="'Counter.Reset_Tageszaehler.Button_Reset_Tageszaehler'" Comment=""/>
+			<Parameter Name="u16ObjId_4" Value="Button_MinusMinus" Comment=""/>
+			<Parameter Name="DigitalInput_4" Value="'Counter.MinusMinus.Button_MinusMinus'" Comment=""/>
 		</FB>
 		<EventConnections>
-			<Connection Source="INIT" Destination="UT_ButtonMapping_UP.INIT" Comment="" dx1="520.0" dx2="520.0" dy="0.0"/>
+			<Connection Source="INIT" Destination="UT_ButtonMapping_UP.INIT" Comment="" dx1="520.0" dx2="520.0" dy="0.0">
+				<Attribute Name="Visible" Type="STRING" Value="false"/>
+			</Connection>
 		</EventConnections>
 	</SubAppNetwork>
 </SubAppType>
