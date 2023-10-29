@@ -12,16 +12,16 @@
 	</SubAppInterfaceList>
 	<SubAppNetwork>
 		<FB Name="UT_SoftkeyMapping_UP" Type="UT_SoftkeyMapping_UP" Comment="" x="1066.6666666666667" y="933.3333333333334">
-			<Parameter Name="QI" Value="TRUE"/>
-			<Parameter Name="u8SAMember" Value="255"/>
-			<Parameter Name="u16ObjId_1" Value="SoftKey_PlusPlus"/>
-			<Parameter Name="DigitalInput_1" Value="&quot;SoftKey_PlusPlus&quot;"/>
-			<Parameter Name="u16ObjId_2" Value="SoftKey_Reset_Gesamtzaehler"/>
-			<Parameter Name="DigitalInput_2" Value="&quot;SoftKey_Reset_Gesamtzaehler&quot;"/>
-			<Parameter Name="u16ObjId_3" Value="SoftKey_Reset_Tageszaehler"/>
-			<Parameter Name="DigitalInput_3" Value="&quot;SoftKey_Reset_Tageszaehler&quot;"/>
-			<Parameter Name="u16ObjId_4" Value="SoftKey_MinusMinus"/>
-			<Parameter Name="DigitalInput_4" Value="&quot;SoftKey_MinusMinus&quot;"/>
+			<Parameter Name="QI" Value="TRUE" Comment=""/>
+			<Parameter Name="u8SAMember" Value="255" Comment=""/>
+			<Parameter Name="u16ObjId_1" Value="SoftKey_PlusPlus" Comment=""/>
+			<Parameter Name="DigitalInput_1" Value="'Counter.PlusPlus.SoftKey_PlusPlus'" Comment=""/>
+			<Parameter Name="u16ObjId_2" Value="SoftKey_Reset_Gesamtzaehler" Comment=""/>
+			<Parameter Name="DigitalInput_2" Value="'Counter.Reset_Gesamtzaehler.SoftKey_Reset_Gesamtzaehler'" Comment=""/>
+			<Parameter Name="u16ObjId_3" Value="SoftKey_Reset_Tageszaehler" Comment=""/>
+			<Parameter Name="DigitalInput_3" Value="'Counter.Reset_Tageszaehler.SoftKey_Reset_Tageszaehler'" Comment=""/>
+			<Parameter Name="u16ObjId_4" Value="SoftKey_MinusMinus" Comment=""/>
+			<Parameter Name="DigitalInput_4" Value="'Counter.MinusMinus.SoftKey_MinusMinus'" Comment=""/>
 		</FB>
 		<EventConnections>
 			<Connection Source="INIT" Destination="UT_SoftkeyMapping_UP.INIT" Comment="" dx1="80.0"/>

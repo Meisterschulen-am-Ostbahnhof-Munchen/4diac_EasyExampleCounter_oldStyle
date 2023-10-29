@@ -60,6 +60,7 @@ def create_new_file(new_file, old_file):
     for line in lines:
         count += 1
         line = line.replace("#define ", "")
+        line = line.replace('"', "'")
         if not line.__contains__("//"):
             lines_list.append(line)
 
