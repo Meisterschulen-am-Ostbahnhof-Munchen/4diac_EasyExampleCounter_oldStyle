@@ -14,54 +14,36 @@
 		<SubApp Name="Gesamtzaehler" Type="Gesamtzaehler" Comment="" x="2400.0" y="-2000.0">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Tageszaehler" Type="Tageszaehler" Comment="" x="2400.0" y="0.0">
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="MinusMinus" Type="MinusMinus" Comment="" x="0.0" y="-1333.3333333333335">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="PlusPlus" Type="PlusPlus" Comment="" x="0.0" y="-1720.0">
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Reset_Gesamtzaehler" Type="Reset_Gesamtzaehler" Comment="" x="0.0" y="-933.3333333333334">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="Reset_Tageszaehler" Type="Reset_Tageszaehler" Comment="" x="0.0" y="620.0">
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="GesamtzaehlerVergleich" Type="GesamtzaehlerVergleich" Comment="" x="4400.0" y="-2266.666666666667">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="TageszaehlerVergleich" Type="TageszaehlerVergleich" Comment="" x="4400.0" y="-260.0">
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
 		<SubApp Name="VT_active" Type="VT_active" Comment="" x="233.33333333333334" y="-573.3333333333334">
-			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
-			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 			<Attribute Name="width" Type="LREAL" Value="1333.3333333333335"/>
 			<Attribute Name="height" Type="LREAL" Value="666.6666666666667"/>
 		</SubApp>
@@ -90,7 +72,8 @@
 			<Connection Source="VT_active.EO" Destination="Tageszaehler.rVT" Comment="" dx1="1160.0"/>
 			<Connection Source="VT_active.EO" Destination="GesamtzaehlerVergleich.rVT" Comment="" dx1="3213.3333333333335"/>
 			<Connection Source="VT_active.EO" Destination="TageszaehlerVergleich.rVT" Comment="" dx1="3206.666666666667"/>
-			<Connection Source="INIT" Destination="mapping.INIT" Comment="" dx1="666.6666666666667"/>
+			<Connection Source="INIT" Destination="mapping.INIT" Comment="" dx1="80.0"/>
+			<Connection Source="INIT" Destination="VT_active.INIT" Comment="" dx1="80.0"/>
 		</EventConnections>
 		<DataConnections>
 			<Connection Source="Gesamtzaehler.CV" Destination="GesamtzaehlerVergleich.CV" Comment="" dx1="66.66666666666667"/>
