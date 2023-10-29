@@ -15,13 +15,13 @@
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
 			<Parameter Name="u16ObjId_1" Value="Button_PlusPlus"/>
-			<Parameter Name="DigitalInput_1" Value="&quot;Button_PlusPlus&quot;"/>
+			<Parameter Name="DigitalInput_1" Value="'Button_PlusPlus'"/>
 			<Parameter Name="u16ObjId_2" Value="Button_Reset_Gesamtzaehler"/>
-			<Parameter Name="DigitalInput_2" Value="&quot;Button_Reset_Gesamtzaehler&quot;"/>
+			<Parameter Name="DigitalInput_2" Value="'Button_Reset_Gesamtzaehler'"/>
 			<Parameter Name="u16ObjId_3" Value="Button_Reset_Tageszaehler"/>
-			<Parameter Name="DigitalInput_3" Value="&quot;Button_Reset_Tageszaehler&quot;"/>
+			<Parameter Name="DigitalInput_3" Value="'Button_Reset_Tageszaehler'"/>
 			<Parameter Name="u16ObjId_4" Value="Button_MinusMinus"/>
-			<Parameter Name="DigitalInput_4" Value="&quot;Button_MinusMinus&quot;"/>
+			<Parameter Name="DigitalInput_4" Value="'Button_MinusMinus'"/>
 		</FB>
 		<EventConnections>
 			<Connection Source="INIT" Destination="UT_ButtonMapping_UP.INIT" Comment="" dx1="520.0" dx2="520.0" dy="0.0"/>

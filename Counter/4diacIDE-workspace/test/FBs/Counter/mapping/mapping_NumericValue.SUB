@@ -15,9 +15,9 @@
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
 			<Parameter Name="u16ObjId_1" Value="NumberVariable_Gesamtziel"/>
-			<Parameter Name="NumericValueInput_1" Value="&quot;IN_NumberVariable_Gesamtziel&quot;"/>
+			<Parameter Name="NumericValueInput_1" Value="'IN_NumberVariable_Gesamtziel'"/>
 			<Parameter Name="u16ObjId_2" Value="NumberVariable_Tagesziel"/>
-			<Parameter Name="NumericValueInput_2" Value="&quot;IN_NumberVariable_Tagesziel&quot;"/>
+			<Parameter Name="NumericValueInput_2" Value="'IN_NumberVariable_Tagesziel'"/>
 		</FB>
 		<EventConnections>
 			<Connection Source="INIT" Destination="UT_SoftkeyMapping_UP.INIT" Comment="" dx1="73.33333333333334" dx2="73.33333333333334" dy="0.0"/>

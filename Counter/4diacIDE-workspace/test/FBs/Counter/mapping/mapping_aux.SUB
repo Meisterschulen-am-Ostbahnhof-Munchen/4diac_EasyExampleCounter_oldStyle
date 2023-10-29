@@ -16,9 +16,9 @@
 			<Parameter Name="QI" Value="TRUE"/>
 			<Parameter Name="u8SAMember" Value="255"/>
 			<Parameter Name="u16ObjId_1" Value="AuxFunction2_PlusPlus"/>
-			<Parameter Name="DigitalInput_1" Value="&quot;AuxFunction2_PlusPlus&quot;"/>
+			<Parameter Name="DigitalInput_1" Value="'AuxFunction2_PlusPlus'"/>
 			<Parameter Name="u16ObjId_2" Value="AuxFunction2_MinusMinus"/>
-			<Parameter Name="DigitalInput_2" Value="&quot;AuxFunction2_MinusMinus&quot;"/>
+			<Parameter Name="DigitalInput_2" Value="'AuxFunction2_MinusMinus'"/>
 			<Parameter Name="u16ObjId_3" Value="31002"/>
 		</FB>
 		<EventConnections>
