@@ -52,29 +52,29 @@
 			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier"/>
 			<VarDeclaration Name="u8SAMember" Type="USINT" Comment="Dummy !, set to 255 if in doubt. 0 deactivates FB." InitialValue="255"/>
 			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1"/>
-			<VarDeclaration Name="CounterInput_1" Type="WSTRING" Comment="Identifier for Input 1 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_1" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_1" Type="STRING" Comment="Identifier for Input 1 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_1" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2"/>
-			<VarDeclaration Name="CounterInput_2" Type="WSTRING" Comment="Identifier for Input 2 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_2" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_2" Type="STRING" Comment="Identifier for Input 2 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_2" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3"/>
-			<VarDeclaration Name="CounterInput_3" Type="WSTRING" Comment="Identifier for Input 3 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_3" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_3" Type="STRING" Comment="Identifier for Input 3 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_3" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4"/>
-			<VarDeclaration Name="CounterInput_4" Type="WSTRING" Comment="Identifier for Input 4 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_4" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_4" Type="STRING" Comment="Identifier for Input 4 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_4" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5"/>
-			<VarDeclaration Name="CounterInput_5" Type="WSTRING" Comment="Identifier for Input 5 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_5" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_5" Type="STRING" Comment="Identifier for Input 5 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_5" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6"/>
-			<VarDeclaration Name="CounterInput_6" Type="WSTRING" Comment="Identifier for Input 6 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_6" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_6" Type="STRING" Comment="Identifier for Input 6 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_6" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7"/>
-			<VarDeclaration Name="CounterInput_7" Type="WSTRING" Comment="Identifier for Input 7 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_7" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_7" Type="STRING" Comment="Identifier for Input 7 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_7" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8"/>
-			<VarDeclaration Name="CounterInput_8" Type="WSTRING" Comment="Identifier for Input 8 Current Count"/>
-			<VarDeclaration Name="CalibrationInput_8" Type="WSTRING" Comment="Calibration — Encoder Counts per revolution"/>
+			<VarDeclaration Name="CounterInput_8" Type="STRING" Comment="Identifier for Input 8 Current Count"/>
+			<VarDeclaration Name="CalibrationInput_8" Type="STRING" Comment="Calibration — Encoder Counts per revolution"/>
 		</InputVars>
 		<OutputVars>
 			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>

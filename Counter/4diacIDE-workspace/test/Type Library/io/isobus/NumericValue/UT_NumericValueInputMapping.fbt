@@ -43,22 +43,22 @@
 		<InputVars>
 			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier"/>
 			<VarDeclaration Name="u8SAMember" Type="USINT" Comment="Dummy !, set to 255 if in doubt. 0 deactivates FB." InitialValue="255"/>
-			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1" InitialValue="21000"/>
-			<VarDeclaration Name="NumericValueInput_1" Type="WSTRING" Comment="Identifier for Input 1" InitialValue="&quot;NumericValueInput_21000&quot;"/>
-			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2" InitialValue="21001"/>
-			<VarDeclaration Name="NumericValueInput_2" Type="WSTRING" Comment="Identifier for Input 2" InitialValue="&quot;NumericValueInput_21001&quot;"/>
-			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3" InitialValue="21002"/>
-			<VarDeclaration Name="NumericValueInput_3" Type="WSTRING" Comment="Identifier for Input 3" InitialValue="&quot;NumericValueInput_21002&quot;"/>
-			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4" InitialValue="21003"/>
-			<VarDeclaration Name="NumericValueInput_4" Type="WSTRING" Comment="Identifier for Input 4" InitialValue="&quot;NumericValueInput_21003&quot;"/>
-			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5" InitialValue="21004"/>
-			<VarDeclaration Name="NumericValueInput_5" Type="WSTRING" Comment="Identifier for Input 5" InitialValue="&quot;NumericValueInput_21004&quot;"/>
-			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6" InitialValue="21005"/>
-			<VarDeclaration Name="NumericValueInput_6" Type="WSTRING" Comment="Identifier for Input 6" InitialValue="&quot;NumericValueInput_21005&quot;"/>
-			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7" InitialValue="21006"/>
-			<VarDeclaration Name="NumericValueInput_7" Type="WSTRING" Comment="Identifier for Input 7" InitialValue="&quot;NumericValueInput_21006&quot;"/>
-			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8" InitialValue="21007"/>
-			<VarDeclaration Name="NumericValueInput_8" Type="WSTRING" Comment="Identifier for Input 8" InitialValue="&quot;NumericValueInput_21007&quot;"/>
+			<VarDeclaration Name="u16ObjId_1" Type="UINT" Comment="Object ID of Input 1"/>
+			<VarDeclaration Name="NumericValueInput_1" Type="STRING" Comment="Identifier for Input 1"/>
+			<VarDeclaration Name="u16ObjId_2" Type="UINT" Comment="Object ID of Input 2"/>
+			<VarDeclaration Name="NumericValueInput_2" Type="STRING" Comment="Identifier for Input 2"/>
+			<VarDeclaration Name="u16ObjId_3" Type="UINT" Comment="Object ID of Input 3"/>
+			<VarDeclaration Name="NumericValueInput_3" Type="STRING" Comment="Identifier for Input 3"/>
+			<VarDeclaration Name="u16ObjId_4" Type="UINT" Comment="Object ID of Input 4"/>
+			<VarDeclaration Name="NumericValueInput_4" Type="STRING" Comment="Identifier for Input 4"/>
+			<VarDeclaration Name="u16ObjId_5" Type="UINT" Comment="Object ID of Input 5"/>
+			<VarDeclaration Name="NumericValueInput_5" Type="STRING" Comment="Identifier for Input 5"/>
+			<VarDeclaration Name="u16ObjId_6" Type="UINT" Comment="Object ID of Input 6"/>
+			<VarDeclaration Name="NumericValueInput_6" Type="STRING" Comment="Identifier for Input 6"/>
+			<VarDeclaration Name="u16ObjId_7" Type="UINT" Comment="Object ID of Input 7"/>
+			<VarDeclaration Name="NumericValueInput_7" Type="STRING" Comment="Identifier for Input 7"/>
+			<VarDeclaration Name="u16ObjId_8" Type="UINT" Comment="Object ID of Input 8"/>
+			<VarDeclaration Name="NumericValueInput_8" Type="STRING" Comment="Identifier for Input 8"/>
 		</InputVars>
 		<OutputVars>
 			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>

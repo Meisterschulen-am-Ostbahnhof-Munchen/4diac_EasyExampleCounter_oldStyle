@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FBType Name="DualHysteresys" Comment="Template for a Basic Function Block Type">
-	<Identification Standard="61499-2">
+<FBType Name="DualHysteresis" Comment="2-way conversion of Analog to Digital with Hysteresis">
+	<Identification Standard="61499-2" Description="Copyright (c) 2023 HR Agrartechnik GmbH &#10; &#10;This program and the accompanying materials are made  &#10;available under the terms of the Eclipse Public License 2.0  &#10;which is available at https://www.eclipse.org/legal/epl-2.0/  &#10;  &#10;SPDX-License-Identifier: EPL-2.0" >
 	</Identification>
-	<VersionInfo Version="1.0" Author="franz" Date="2023-06-06">
+	<VersionInfo Organization="HR Agrartechnik GmbH" Version="1.0" Author="Franz Höpfinger" Date="2023-06-06">
 	</VersionInfo>
+	<CompilerInfo packageName="signalprocessing">
+	</CompilerInfo>
 	<InterfaceList>
 		<EventInputs>
 			<Event Name="INIT" Type="Event" Comment="Initialization Request">
@@ -72,7 +74,7 @@
 
 QO := QI;
 (* in any case go safe State *)
-DO_UP   := BOOL#FALSE;
+DO_UP := BOOL#FALSE;
 DO_DOWN := BOOL#FALSE;
 END_ALGORITHM]]></ST>
 		</Algorithm>
@@ -83,7 +85,7 @@ ALGORITHM deInitialize
 
 QO := BOOL#FALSE;
 (* in any case go safe State *)
-DO_UP   := BOOL#FALSE;
+DO_UP := BOOL#FALSE;
 DO_DOWN := BOOL#FALSE;
 END_ALGORITHM]]></ST>
 		</Algorithm>
@@ -93,7 +95,7 @@ END_ALGORITHM]]></ST>
 ALGORITHM alNeutral
 QO := QI;
 (* in any case go safe State *)
-DO_UP   := BOOL#FALSE;
+DO_UP := BOOL#FALSE;
 DO_DOWN := BOOL#FALSE;
 END_ALGORITHM]]></ST>
 		</Algorithm>
@@ -102,23 +104,25 @@ END_ALGORITHM]]></ST>
 
 ALGORITHM alUp
 QO := QI;
-IF TRUE  = QI THEN
-  (*  only perform normal operation of QI is true*)
-  DO_UP   := BOOL#TRUE;
-  DO_DOWN := BOOL#FALSE;
+IF TRUE = QI THEN
+	(* only perform normal operation of QI is true *)
+	DO_UP := BOOL#TRUE;
+	DO_DOWN := BOOL#FALSE;
 END_IF;
 END_ALGORITHM]]></ST>
 		</Algorithm>
 		<Algorithm Name="alDown" Comment="">
 			<ST><![CDATA[
+
 ALGORITHM alDown
 QO := QI;
-IF TRUE  = QI THEN
-  (*  only perform normal operation of QI is true*)
-  DO_UP   := BOOL#FALSE;
-  DO_DOWN := BOOL#TRUE;
+IF TRUE = QI THEN
+	(* only perform normal operation of QI is true *)
+	DO_UP := BOOL#FALSE;
+	DO_DOWN := BOOL#TRUE;
 END_IF;
 END_ALGORITHM
+
 ]]></ST>
 		</Algorithm>
 	</BasicFB>
